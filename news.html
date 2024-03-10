@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Fedeking Studios website</title>
+	<link rel="stylesheet" href="css/contact.css" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			<div id="header">
+				<div id="logo">
+					<a href="index.html"><img src="images/logo.png" alt="LOGO" height="112" width="118"></a>
+				</div>
+				<div id="navigation">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="about.html">Informazioni</a>
+						</li>
+						<li>
+							<a href="foods.html">Film</a>
+						</li>
+						<li class="selected">
+							<a href="news.html">Feedback</a>
+						</li>
+						<li>
+							<a href="contact.html">Contattaci</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="contents">
+				<div class="box">
+					<div>
+						
+							<h1>Feedback</h1>
+							<h2><span style="color: firebrick; font-size: 1.2em;">lascia un Feedback</h2>
+
+                           <!-- Includere il link alla libreria di Font Awesome -->
+                           <script src="https://kit.fontawesome.com/1234567890.js" crossorigin="anonymous"></script>
+
+                           <section>
+                            
+                            <form action="https://formspree.io/f/xgebdlnp" method="POST">
+                              <label for="name">Nome:</label>
+                              <input type="text" id="name" name="name" required><br><br>
+                              <label for="rating">Valutazione:</label>
+                              <input type="range" id="rating" name="rating" min="1" max="5" step="1"><br><br>
+                              
+                              <label for="message">In cosa possiamo migliorare:</label>
+								<textarea name="message" required></textarea>
+                              <input type="hidden" name="_subject" value="">
+                              <button type="submit">Invia</button>
+                            </form>
+                          </section>
+                          
+							  
+							<div>ㅤ</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<ul class="navigation">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">Informazioni</a>
+					</li>
+					<li>
+						<a href="foods.html">Film</a>
+					</li>
+					<li class="active">
+						<a href="news.html">Feedback</a>
+					</li>
+					<li>
+						<a href="contact.html">Contattaci</a>
+					</li>
+				</ul>
+			
+			</div>
+			<p>
+				© 2024 by Fedeking Studios Website. Tutti i diritti sono riservati
+			</p>
+		</div>
+	</div>
+</body>
